@@ -1,4 +1,4 @@
-x=range(1, 60, 2)
-
+x=range(1, 11)
+i=int(input())
 for n in x:
-    print(n)
+    print(f'{i} x {n} = {i*n}')
